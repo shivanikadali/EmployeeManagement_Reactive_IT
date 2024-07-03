@@ -16,14 +16,10 @@ public class EmployeeService {
     EmployeeRepo employeeRepo;
 
     public Flux<Employee> getAll() throws InterruptedException {
-        System.out.println(Thread.class+"____________________________GetAll");
-        Thread.sleep(2020);
-        System.out.println(Thread.class+"____________________________GetAll");
         return employeeRepo.findAll();
     }
 
     public Mono<Employee> create(Employee employee) {
-        System.out.println(Thread.class+"____________________________Create");
         return employeeRepo.save(employee);
     }
 

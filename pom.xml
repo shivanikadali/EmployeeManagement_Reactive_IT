@@ -70,6 +70,18 @@
 			<version>5.4.0</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.r2dbc/r2dbc-h2 -->
+		<dependency>
+			<groupId>io.r2dbc</groupId>
+			<artifactId>r2dbc-h2</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

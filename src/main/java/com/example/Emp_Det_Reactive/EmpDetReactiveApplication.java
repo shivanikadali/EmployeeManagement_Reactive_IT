@@ -9,5 +9,4 @@ public class EmpDetReactiveApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmpDetReactiveApplication.class, args);
 	}
-
 }
